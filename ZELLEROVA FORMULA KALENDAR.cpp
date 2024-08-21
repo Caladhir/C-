@@ -70,7 +70,7 @@ int main() {
         }
     }
     else if (godina > 1582 || (godina == 1582 && (mjesec > 10 || (mjesec == 10 && dan >= 15)))) {
-        // Raèunanje dana u tjednu prema Gregorijanskom kalendaru/GREGORIAN CALENDAR
+        // RaÃ¨unanje dana u tjednu prema Gregorijanskom kalendaru/GREGORIAN CALENDAR
         int h = q + 13 * (m + 1) / 5 + k + k / 4 +j/4 -2* j;
         h = h % 7;
         cout << dan << "." << mjesec << "." << godina << " pada u ";
