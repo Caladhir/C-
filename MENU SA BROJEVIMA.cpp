@@ -181,7 +181,7 @@ void izlaz()
 
 void nepoznatUnos()
 {
-    cout << "Krivi unos - pokušajte ponovno";
+    cout << "Krivi unos - pokuÅ¡ajte ponovno";
 }
 
 void prikaziListuBrojeva(const vector<int>& v)
